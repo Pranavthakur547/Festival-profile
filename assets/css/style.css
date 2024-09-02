@@ -1,8 +1,16 @@
 @import url(/assets/css/root.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-.nav-section{
+.poppins{
+    font-family: "Poppins", sans-serif;
+}
+.nav-section {
     box-shadow: 0px 8px 35px 0px #0000000D;
+}
+
+.ml-56{
+    margin-left: 56px;
 }
 
 button {
@@ -27,13 +35,14 @@ button {
 
 }
 
-.hero-btn  {
+.hero-btn {
     padding: 11px 28px;
     margin-left: 12px;
+    background: #2C49FE1A;
 }
 
-.hero-btn:hover a{
-    
+.hero-btn:hover a {
+
     color: white !important;
     transition: all 300ms linear;
 }
@@ -65,7 +74,7 @@ button {
 }
 
 .hero-section-para-2 {
-    max-width: 561px;
+    max-width: 621px;
     margin-top: 32px;
 }
 
@@ -81,11 +90,14 @@ button {
     cursor: pointer;
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
     box-shadow: none;
 
 }
 
+.nav-btn{
+    padding: 11px 28px !important;
+}
 
 
 /*================ section-2=============== */
@@ -244,6 +256,7 @@ button {
 .username-para-1 {
     max-width: 1199px;
 }
+
 /* ==============================Footer-section============================== */
 .main-logo-footer {
     margin-top: 81px;
@@ -299,23 +312,24 @@ button {
         justify-content: center;
         align-items: center;
     }
-    .buttons{
+
+    .buttons {
         flex-direction: column;
         gap: 20px;
     }
 
-    .item-c{
+    .item-c {
         grid-column: 1/2;
         grid-row: 4/5;
     }
 
-    .item-e{
+    .item-e {
         grid-column: 2/3;
         grid-row: 4/5;
-        object-fit: cover;
+        /* object-fit: cover; */
     }
 
-    .item-f{
+    .item-f {
         grid-column: 1/3;
         grid-row: 3/4;
     }
@@ -338,6 +352,24 @@ button {
         display: flex;
         justify-content: center;
     }
+
+    .svg {
+        margin-top: 100px;
+    }
+
+    .img-section-2 {
+        margin-top: 80px;
+    }
+
+    .comment {
+        padding: 14px 20px 4px 20px;
+        border-radius: 0px 20px 20px 20px;
+    }
+
+    .comment-1 {
+        padding: 14px 20px 20px 20px;
+        border-radius: 0px 20px 20px 20px;
+    }
 }
 
 
@@ -352,11 +384,13 @@ button {
         flex-direction: column;
         align-items: flex-start;
     }
-    .main-heading-with-btn{
+
+    .main-heading-with-btn {
         flex-direction: column;
         gap: 20px;
     }
-    .options{
+
+    .options {
         display: flex;
         justify-content: center;
     }
@@ -377,8 +411,52 @@ button {
         height: 50px;
     }
 
-    .delete-group{
+    .delete-group {
         margin-left: 0;
+    }
+
+    .img-box-bottom {
+        gap: 5px;
+        margin-top: 5px;
+
+    }
+
+    .img-box-top {
+        gap: 5px;
+
+    }
+
+    .comment {
+        padding: 14px 20px 4px 20px;
+        border-radius: 0px 20px 20px 20px;
+    }
+
+    .comment-1 {
+        padding: 14px 20px 20px 20px;
+        border-radius: 0px 20px 20px 20px;
+    }
+
+    .input-box {
+        width: 100%;
+        height: 190px;
+    }
+
+    .input-btn {
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, -10%);
+    }
+
+    .input {
+        margin-left: 60px;
+    }
+
+    .playbutton {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%, -2%);
+        cursor: pointer;
     }
 }
 
@@ -391,21 +469,6 @@ button {
         width: 100%;
         text-align: center;
     }
-
-    /* .item-a{
-        grid-column: 1/2;
-        grid-row: 6/7;
-    }
-
-    .item-b{
-        grid-column: 1/2;
-        grid-row: 7/8;
-    }
-
-    .item-e{
-        grid-column: 1/2;
-        grid-row: 5/6;
-    } */
 
     .comment-section h2 {
         font-size: 18px;
@@ -421,5 +484,9 @@ button {
 
     .comment .content p {
         font-size: 10px;
+    }
+
+    .input-btn {
+        width: auto;
     }
 }
