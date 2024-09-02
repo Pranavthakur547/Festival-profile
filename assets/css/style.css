@@ -192,63 +192,58 @@ button {
     background-color: #0056b3;
 }
 
-.comment {
-    display: flex;
-    margin-bottom: 10px;
-
+.tell-us-svg {
+    margin-top: 67px;
 }
 
-.content {
-    background-color: #f9f9f9;
-    border-radius: 0px 20px 20px 20px;
-    padding: 14px 20px;
+.tell-us-para {
+    max-width: 719px;
 }
 
-.comment .avatar {
-    margin-right: 15px;
-}
-
-.comment .avatar img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.comment .content {
-    flex-grow: 1;
-    width: 100%;
-}
-
-.comment .content h4 {
-    margin-bottom: 5px;
-    font-size: 16px;
-    color: #333;
-}
-
-.comment .content p {
-    margin-bottom: 10px;
-    font-size: 14px;
-    color: #555;
-}
-
-.remove-btn {
-    padding: 5px 10px;
-    background-color: #dc3545;
-    color: #fff;
+.input {
+    outline: none;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-.remove-btn:hover {
-    background-color: #c82333;
-}
-.ml-72{
-    margin-left: 72px;
+.input-box {
+    width: 100%;
+    border: 1px solid #9CA1BE;
+    border-radius: 35px;
+    max-width: 1319px;
+    padding: 20px 9px;
+
 }
 
+.input-btn {
+    border: none;
+    padding: 13px 28px;
+    border-radius: 36px;
+    right: 0;
+    transform: translate(-3%, -20%);
+}
+
+.input-img {
+    left: 0;
+    transform: translate(14%, -20%);
+}
+
+.input {
+    margin-left: 85px;
+}
+
+.comment {
+    padding: 14px 66px 4px 20px;
+    border-radius: 0px 20px 20px 20px;
+}
+
+.comment-1 {
+    padding: 14px 120px 20px 20px;
+    border-radius: 0px 20px 20px 20px;
+}
+
+.username-para-1 {
+    max-width: 1199px;
+}
 /* ==============================Footer-section============================== */
 .main-logo-footer {
     margin-top: 81px;
