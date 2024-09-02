@@ -27,9 +27,20 @@ button {
 
 }
 
-.hero-btn {
+.hero-btn  {
     padding: 11px 28px;
     margin-left: 12px;
+}
+
+.hero-btn:hover a{
+    
+    color: white !important;
+    transition: all 300ms linear;
+}
+
+.hero-btn:hover {
+    background-color: blue;
+    transition: all 300ms linear;
 }
 
 .hero-section-para {
@@ -70,6 +81,10 @@ button {
     cursor: pointer;
 }
 
+.navbar-toggler:focus{
+    box-shadow: none;
+
+}
 
 
 
@@ -202,6 +217,7 @@ button {
 
 .comment .content {
     flex-grow: 1;
+    width: 100%;
 }
 
 .comment .content h4 {
